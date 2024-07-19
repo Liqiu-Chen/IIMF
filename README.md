@@ -63,6 +63,7 @@ python tracking/analysis_results.py --tracker_name tbsi_track --tracker_param vi
 ### Results on LasHeR testing set
 
 Model | Backbone | Pretraining | Precision | NormPrec | Success | Checkpoint | Raw Result
+
 IIMF | ViT-Base | SOT | 72.35 | 68.39 | 58.07 | [download](https://pan.baidu.com/s/18MYRT4jkunIPklD02daFXA?pwd=y2rz) | [download](https://pan.baidu.com/s/1CP07T0VmtxPr6KcWqszY1w?pwd=6v3b)
 
 ## Acknowledgments
