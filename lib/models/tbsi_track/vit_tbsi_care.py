@@ -99,7 +99,7 @@ class Block(nn.Module):
             return x
 
 
-class VisionTransformerTBSI(BaseBackbone):
+class VisionTransformerIIMF(BaseBackbone):
     """ Vision Transformer
     A PyTorch impl of : `An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale`
         - https://arxiv.org/abs/2010.11929
@@ -326,7 +326,7 @@ def _init_vit_weights(module: nn.Module, name: str = '', head_bias: float = 0., 
 
 
 @torch.no_grad()
-def _load_weights(model: VisionTransformerTBSI, checkpoint_path: str, prefix: str = ''):
+def _load_weights(model: VisionTransformerIIMF, checkpoint_path: str, prefix: str = ''):
     """ Load weights from .npz checkpoints for official Google Brain Flax implementation
     """
     import numpy as np
@@ -450,7 +450,7 @@ def _create_vision_transformer(variant, pretrained=False, default_cfg=None, **kw
     if kwargs.get('features_only', None):
         raise RuntimeError('features_only not implemented for Vision Transformer models.')
 
-    model = VisionTransformerTBSI(**kwargs)
+    model = VisionTransformerIIMF(**kwargs)
 
     if pretrained:
         if 'npz' in pretrained:
