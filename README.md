@@ -64,13 +64,15 @@ python tracking/analysis_results.py --tracker_name tbsi_track --tracker_param vi
 
 Model | Backbone | Pretraining | Precision | NormPrec | Success | Checkpoint | Raw Result
 
-IIMF | ViT-Base | SOT | 72.35 | 68.39 | 58.07 | [download](https://pan.baidu.com/s/18MYRT4jkunIPklD02daFXA?pwd=y2rz) | [download](https://pan.baidu.com/s/1CP07T0VmtxPr6KcWqszY1w?pwd=6v3b)
+IIMF | ViT-Base | SOT | 72.35 | 68.39 | 58.07 | [download](https://pan.baidu.com/s/12m_cmMvbTbMnd-3ih3YQxA?pwd=Chen) | [download](https://pan.baidu.com/s/12m_cmMvbTbMnd-3ih3YQxA?pwd=Chen)
+
+It should be noted that our work is tested and trained on 4 V100 GPUs, and different GPUs might lead to different test results. The raw result and checkpoint that we provide are all achieved on V100 GPUs.
 
 ## Acknowledgments
-Our project is developed upon [OSTrack](https://github.com/botaoye/OSTrack) and [TBSI](https://github.com/RyanHTR/TBSI). Thanks for their contributions which help us to quickly implement our ideas.
+Our project is developed on [OSTrack](https://github.com/botaoye/OSTrack) and [TBSI](https://github.com/RyanHTR/TBSI). Thanks for their contributions which help us to quickly implement our ideas.
 
 ## Citation
-If our work is useful for your research, please consider cite our work as follows:
+If our work is useful for your research, please consider citing our work as follows:
 
 
 
