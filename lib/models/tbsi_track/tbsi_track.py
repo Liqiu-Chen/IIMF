@@ -11,11 +11,11 @@ from torch import nn
 from torch.nn.modules.transformer import _get_clones
 
 from lib.models.layers.head import build_box_head, conv
-from lib.models.tbsi_track.vit_tbsi_care import vit_base_patch16_224_tbsi
+from lib.models.tbsi_track.vit_iimf_care import vit_base_patch16_224_tbsi
 from lib.utils.box_ops import box_xyxy_to_cxcywh
 
 
-class TBSITrack(nn.Module):
+class IIMFTrack(nn.Module):
     """ This is the base class for TBSITrack developed on OSTrack (Ye et al. ECCV 2022) """
 
     def __init__(self, transformer, box_head, aux_loss=False, head_type="CORNER"):
@@ -139,7 +139,7 @@ def build_tbsi_track(cfg, training=True):
 
     box_head = build_box_head(cfg, hidden_dim)
 
-    model = TBSITrack(
+    model = IIMFTrack(
         backbone,
         box_head,
         aux_loss=False,
