@@ -64,7 +64,7 @@ python tracking/analysis_results.py --tracker_name tbsi_track --tracker_param vi
 
 Model | Backbone | Pretraining | Precision | NormPrec | Success | Checkpoint | Raw Result
 
-IIMF | ViT-Base | SOT | 72.35 | 68.39 | 58.07 | [download](https://pan.baidu.com/s/18MYRT4jkunIPklD02daFXA?pwd=y2rz) | [download](https://pan.baidu.com/s/1CP07T0VmtxPr6KcWqszY1w?pwd=6v3b)
+IIMF | ViT-Base | SOT | 72.35 | 68.39 | 58.07 | [download](https://pan.baidu.com/s/12m_cmMvbTbMnd-3ih3YQxA?pwd=Chen) | [download](https://pan.baidu.com/s/12m_cmMvbTbMnd-3ih3YQxA?pwd=Chen)
 
 ## Acknowledgments
 Our project is developed upon [OSTrack](https://github.com/botaoye/OSTrack) and [TBSI](https://github.com/RyanHTR/TBSI). Thanks for their contributions which help us to quickly implement our ideas.
