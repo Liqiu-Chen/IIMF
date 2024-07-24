@@ -73,7 +73,13 @@ Our project is developed on [OSTrack](https://github.com/botaoye/OSTrack) and [T
 
 ## Citation
 If our work is useful for your research, please consider citing our work as follows:
-
+```
+@inproceedings{IIMF,
+  title={Simplifying Cross-modal Interaction via Modality-Shared Features for RGBT Tracking},
+  author={Chen, Liqiu and Huang, Yuqing and Li, Hengyu and Zhou, Zikun and He, Zhenyu},
+  booktitle={Proceedings of the 32th ACM International Conference on Multimedia},
+  year={2024}
+}
 
 
 
