@@ -1,4 +1,4 @@
-# Integrating Interaction into Modality shared Fearues with ViT
+# Simplifying Cross-modal Interaction via Modality-Shared Features for RGBT Tracking
 The official implementation for the ACM MM 2024 paper [Simplifying Cross-modal Interaction via Modality-Shared Features for RGBT Tracking].
 
 ## Environment Installation
